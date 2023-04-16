@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,600,700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<title>Xcritical</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top">
+					<div class="header__logo"><a href="index.html"><img src="img/logo.svg" class="" alt=""></a></div>
+					<div class="header__info header-info">
+						<div class="header-info__telegram"><a href="https://t.me/telegram"><img src="img/icons/telegram.svg"
+									class="" alt=""></a>
+						</div>
+						<div class="header-info__mail"><a href="mailto:sales@xcritical.com">sales@xcritical.com</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom ">
+				<div class="header-bottom__container">
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="index.html" class="menu__link menu__link-active">Главная</a>
+								</li>
+								<li class="menu__item menu__item-arr"><a href="" class="menu__link">Форекс решения</a>
+									<span class="menu__arrow arrow"></span>
+									<ul class="sub-menu__list">
+										<li>
+											<a href="consultation.html" class="sub-menu__link">Консультация</a>
+										</li>
+										<li>
+											<a href="tradingPplatform.html" class="sub-menu__link">Торговая платформа</a>
+										</li>
+										<li>
+											<a href="liquidity.html" class="sub-menu__link">Агрегатор ликвидности</a>
+										</li>
+										<li>
+											<a href="paymentSystem.html" class="sub-menu__link">Платежные методы</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item menu__item-arr"><a href="" class="menu__link ">Крипто-решения</a>
+									<span class="menu__arrow arrow"></span>
+									<ul class="sub-menu__list">
+										<li>
+											<a href="blockchain-consultation.html" class="sub-menu__link">Blockchain
+												консультация</a>
+										</li>
+										<li>
+											<a href="cryptocurrency-exchang.html" class="sub-menu__link">Криптовалютна биржа и
+												обменник</a>
+										</li>
+										<li>
+											<a href="crypto-wallet.html.html" class="sub-menu__link">Крипто кошельки</a>
+										</li>
+										<li>
+											<a href="liquidity.html" class="sub-menu__link">Агрегатор ликвидности</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item"><a href="abaut us.html" class="menu__link">О нас</a></li>
+								<li class="menu__item"><a href="blog.html" class="menu__link">Блог</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div data-modal-button="modal-1" class="header__button"> Связаться с
+						нами</div>
+				</div>
+			</div>
+			<div id="modal-1" data-modal class="fade-block hidden">
+				<div class="modal-window">
+					<button data-modal-close type="button" class="button-close">
+						
+					</button>
+					<form class="advice__form form-main">
+						<div class="form-main__title">Запланируйте свою демонстрацию сегодня</div>
+						<p>Имя и Фамилия</p>
+						<div class="form-main__input-wrapper">
+							<input type="text" class="form-main__input" placeholder="Как к вам обращаться?">
+							<div class="input__icon"><img src="img/icons/name.svg" class="" alt=""></div>
+						</div>
+						<label class="checkbox" for="checkbox1">
+							<input class="checkbox__inp" type="checkbox" id="checkbox1">
+							<span class="checkbox__inner">
+							</span>
+							<div class="block" id="block11" style="display: none;">
+								<p>Ваш телеграм</p>
+								<div class="form-main__input-wrapper">
+									<input type="text" class="form-main__input" placeholder="Ваш telegram">
+									<div class="input__icon"><img src="img/icons/telegram.svg" class="" alt=""></div>
+								</div>
+							</div>
+							<div class="block" id="block21" style="display: block;">
+								<p>Номер телефона</p>
+								<div class="form-main__input-wrapper">
+									<input type="text" class="form-main__input" placeholder="Ваш номер телефона*">
+									<div class="input__icon"><img src="img/icons/phone.svg" class="" alt=""></div>
+								</div>
+							</div>
+							
+	
+						</label>
+	
+						<div class="form-main__input-wrapper">
+							<input type="text" class="form-main__input" placeholder="Email*">
+							<div class="input__icon"><img src="img/icons/mail-form.svg" class="" alt=""></div>
+						</div>
+						<button class="form-main__button">Отправить</button>
+					</form>
+	
+				</div>
+			</div>
+		</header>
+		
+		<main class="page">
+			
+			<section class="page__advice advice swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="advice__container ">
+							<div class="advice__main">
+								<h1 class="advice__title">Решения</h1>
+								<div class="advice__discription">XCritical — комплексный подход к созданию программного
+									обеспечения для компаний форекс-индустрии,
+									оптимизирующий работу и обеспечивающий высокий рост
+									прибыли.</div>
+								<form class="advice__form form-main">
+									<div class="form-main__title">Запланируйте свою демонстрацию сегодня</div>
+									<p>Имя и Фамилия</p>
+									<div class="form-main__input-wrapper">
+										<input type="text" class="form-main__input" placeholder="Как к вам обращаться?">
+										<div class="input__icon"><img src="img/icons/name.svg" class="" alt=""></div>
+									</div>
+									<label class="checkbox" for="checkbox">
+										<input class="checkbox__inp" type="checkbox" id="checkbox">
+										<span class="checkbox__inner">
+										</span>
+										<div class="block" id="block1" style="display: none;">
+											<p>Ваш телеграм</p>
+											<div class="form-main__input-wrapper">
+												<input type="text" class="form-main__input" placeholder="Ваш telegram">
+												<div class="input__icon"><img src="img/icons/telegram.svg" class="" alt=""></div>
+											</div>
+										</div>
+										<div class="block" id="block2" style="display: block;">
+											<p>Номер телефона</p>
+											<div class="form-main__input-wrapper">
+												<input type="text" class="form-main__input" placeholder="Ваш номер телефона*">
+												<div class="input__icon"><img src="img/icons/phone.svg" class="" alt=""></div>
+											</div>
+										</div>
+
+									</label>
+
+									<div class="form-main__input-wrapper">
+										<input type="text" class="form-main__input" placeholder="Email*">
+										<div class="input__icon"><img src="img/icons/mail-form.svg" class="" alt=""></div>
+									</div>
+									<button class="form-main__button">Отправить</button>
+								</form>
+							</div>
+							<div class="advice__decor">
+								<img src="img/advice/laptop.png" class="" alt="laptop">
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="advice__container ">
+							<div class="advice__decor">
+								<img src="img/advice/woman.png" class="" alt="laptop">
+							</div>
+							<div class="advice__main">
+								<div class="advice__title">Мы всегда готовы ответить на все ваши вопросы!</div>
+								<div class="advice__discription">или помочь вам ориентироваться в продуктах XCritical</div>
+								<form class="advice__form form-main">
+									<div class="form-main__title">Запланируйте свою демонстрацию сегодня</div>
+									<p>Имя и Фамилия</p>
+									<div class="form-main__input-wrapper">
+										<input type="text" class="form-main__input" placeholder="Как к вам обращаться?">
+										<div class="input__icon"><img src="img/icons/name.svg" class="" alt=""></div>
+									</div>
+									<label class="checkbox" for="checkbox3">
+										<input class="checkbox__inp" type="checkbox" id="checkbox3" >
+										<span class="checkbox__inner">
+										</span>
+										<div class="block" id="block13" style="display: none;">
+											<p>Ваш телеграм</p>
+											<div class="form-main__input-wrapper">
+												<input type="text" class="form-main__input" placeholder="Ваш telegram">
+												<div class="input__icon"><img src="img/icons/telegram.svg" class="" alt=""></div>
+											</div>
+										</div>
+										<div class="block" id="block23" style="display: block;">
+											<p>Номер телефона</p>
+											<div class="form-main__input-wrapper">
+												<input type="text" class="form-main__input" placeholder="Ваш номер телефона*">
+												<div class="input__icon"><img src="img/icons/phone.svg" class="" alt=""></div>
+											</div>
+										</div>
+
+									</label>
+
+									<div class="form-main__input-wrapper">
+										<input type="text" class="form-main__input" placeholder="Email*">
+										<div class="input__icon"><img src="img/icons/mail-form.svg" class="" alt=""></div>
+									</div>
+									<button class="form-main__button">Отправить</button>
+								</form>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"><img src="img/icons/prev.svg" class="" alt="prev"></div>
+				<div class="swiper-button-next"><img src="img/icons/next.svg" class="" alt="next"></div>
+			</section>
+			<div class="page__platform platform ">
+				<div class="platform__container ">
+					<div class="platform__title title">Торговая платформа XСritical</div>
+					<div class="platform__body ">
+						<div class="platform__decor"><img src="img/platform/platform-decor.png" class="" alt=""></div>
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="platform__text platform-text swiper-slide">
+									<div class="platform-text__title subtitle">XCritical CRM</div>
+									<div class="platform-text__desription desription">CRM XCritical разработана для решения
+										уникальных
+										потребностей CFD-, форекс- и крипто-брокеров. Система
+										обеспечивает полную защиту данных и позволяет легко управлять
+										активностью трейдеров. Это повышает эффективность процессов
+										и обеспечивает наилучшее качество обслуживания клиентов.</div>
+									<div class="platform-text__title subtitle">Мобильные приложения</div>
+									<div class="platform-text__desription desription">Мобильные приложения для iOS и Android
+										за
+										счет
+										понятного
+										интерфейса и продуманного функционала позволяют трейдерам
+										торговать быстро и безопасно из любого места и в любое время.</div>
+									<div class="platform-text__title subtitle">Увеличьте объем торговли с помощью
+										сигналов от Autochartist и Copy Trading</div>
+									<div class="platform-text__desription desription">Поднимите стратегии трейдеров-новичков
+										на
+										новый
+										уровень с
+										инновационной платформой XCritical, включающей Autochartist
+										для технического анализа, торговых сигналов и возможностей
+										копирования сделок.</div>
+								</div>
+								<div class="platform__text platform-text swiper-slide">
+									<div class="platform-text__title subtitle">Расширьте свои горизонты с более чем 10 000
+										инструментов для торговли</div>
+									<div class="platform-text__desription desription">Раскройте безграничный потенциал для своих
+										клиентов с платформой XCritical, где доступны более 10 000 торговых инструментов в
+										валютах, криптовалютах, акциях, индексах и биржевых товарах.</div>
+									<div class="platform-text__title subtitle">Пользуйтесь клиентской поддержкой XCritical</div>
+									<div class="platform-text__desription desription">Цель XCritical — помочь нашим
+										клиентам-брокерам добиться успеха. Вот почему мы предлагаем широкий спектр услуг, включая
+										персонального менеджера по работе с клиентами, круглосуточную техническую поддержку,
+										обучение работе с платформой, помощь в маркетинге и продажах. Станьте нашим партнером
+										сегодня и оцените уровень клиентской поддержки XCritical!</div>
+									<div class="platform-text__title subtitle">Широкий функционал, глобальный охват и быстрая
+										настройка</div>
+									<div class="platform-text__desription desription">Преимущества платформы — интуитивный
+										интерфейс, широкий набор торговых индикаторов, инструментов технического анализа,
+										поддержка 12 языков, большое количество доступных платежных решений. XCritical — идеальный
+										выбор для брокеров, контролируемых различными регуляторами. Благодаря быстрому процессу
+										настройки всего за два дня вы получите готовую к работе площадку.</div>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+							<div class="swiper-button-prev"><img src="img/icons/prev.svg" class="" alt="prev"></div>
+							<div class="swiper-button-next"><img src="img/icons/next.svg" class="" alt="next"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__exchange exchange ">
+				<div class="exchange__container ">
+					<div class="exchange__title title">Крипто биржа XCritical — это
+						безопасный и высокоскоростной
+						сервис</div>
+					<div class="exchange__body ">
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="platform__text platform-text swiper-slide">
+									<div class="platform-text__title subtitle">Формирование рынка</div>
+									<div class="platform-text__desription desription">Вы можете подключиться к более чем 30
+										популярным биржам и
+										генерировать ликвидность, создать многозадачную книгу заказов
+										и полностью управлять ею. Это незаменимые функции, особенно
+										для новичков в Crypto Market.</div>
+									<div class="platform-text__title subtitle">Различные типы исполнения</div>
+									<div class="platform-text__desription desription">Ваши пользователи смогут совершать
+										моментальный обмен по
+										рыночной цене, а также устанавливать лимитные, стоп-лимитные
+										и рыночные ордера.</div>
+									<div class="platform-text__title subtitle">Современный дизайн</div>
+									<div class="platform-text__desription desription">Мы привлекли опытных экспертов в UX/UI для
+										создания
+										современной и максимально удобной платформы с
+										информативным пользовательским интерфейсом.</div>
+								</div>
+								<div class="platform__text platform-text swiper-slide">
+									<div class="platform-text__title subtitle">100% поддержка мобильных устройств</div>
+									<div class="platform-text__desription desription">Мы предлагаем мобильное приложение для iOS
+										и Android со всем необходимым функционалом. Также доступна мобильная версия сайта для
+										управления приложением практически с любого мобильного устройства.</div>
+									<div class="platform-text__title subtitle">Молниеносное Исполнение</div>
+									<div class="platform-text__desription desription">Наша система оптимизирована для быстрого
+										исполнения ордеров и получения цен в реальном времени.</div>
+									<div class="platform-text__title subtitle">Полная интеграция с CRM</div>
+									<div class="platform-text__desription desription">Наш Crypto Exchange полностью интегрирован
+										с XCritical CRM. Брокеры, которые используют обе системы, получают еще больший контроль
+										над клиентскими данными.</div>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+							<div class="swiper-button-prev"><img src="img/icons/prev.svg" class="" alt="prev"></div>
+							<div class="swiper-button-next"><img src="img/icons/next.svg" class="" alt="next"></div>
+						</div>
+						<div class="exchange__decor"><img src="img/exchange/exchange-decor.png" class="" alt=""></div>
+					</div>
+				</div>
+			</div>
+			<div class="page__payment payment swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="payment__container ">
+							<div class="payment__title title">Crypto Wallet обладает следующими возможностями:</div>
+							<div class="payment__body ">
+								<div class="payment__text payment-text">
+									<div class="payment__two-title title">Как работает Crypto
+										Payment System?</div>
+									<div class="payment__desription desription">Это максимально простая схема интеграции с
+										бизнесом. Она встраивается в
+										любую систему с минимальными изменениями. Crypto Payment полностью
+										готова к приему платежей. Чтобы начать работу, достаточно вставить наш
+										айфрейм на свой сайт и настроить получение уведомлений от платежной
+										системы.</div>
+								</div>
+								<div class="payment__decor"><img src="img/wallet/wallet-decor.png" class="" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="payment__container ">
+							<div class="payment__title title">Платежная система Crypto Payment System</div>
+							<div class="payment__body ">
+								<div class="payment__decor"><img src="img/wallet/payment-decor.png" class="" alt=""></div>
+								<div class="payment__text platform-text">
+									<div class="payment__title subtitle">Шаблоны транзакций</div>
+									<div class="payment__desription desription">Сохраняйте нужные транзакции в памяти
+										приложения и
+										дублируйте операции за считанные секунды.</div>
+									<div class="payment__title subtitle">История балансов</div>
+									<div class="payment__desription desription">Смотрите свое инвестмент-портфолио в виде
+										графика на главной</div>
+									<div class="payment__title subtitle">История транзакций</div>
+									<div class="payment__desription desription">Контролируйте операции в общей истории или по
+										отдельным кошелькам.</div>
+									<div class="payment__title subtitle">Котировки валют</div>
+									<div class="payment__desription desription">Предоставьте клиентам обзоры рынка в удобном
+										видеоформате: главные новости и анализ популярных стратегий в прямом эфире и в записи.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"><img src="img/icons/prev.svg" class="" alt="prev"></div>
+				<div class="swiper-button-next"><img src="img/icons/next.svg" class="" alt="next"></div>
+			</div>
+			<div class="page__aggregator aggregator">
+				<div class="aggregator__container ">
+					<div class="aggregator__title title">Партнерская программа XCritical</div>
+					<div class="aggregator__body ">
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="aggregator__text aggregator-text swiper-slide">
+									<div class="aggregator-text__title subtitle">Настройки</div>
+									<div class="aggregator-text__desription desription">XCritical Affiliates Management System
+										поддерживает несколько брендов партнера и легко связывается с разными CRM. Актуальные для
+										AMS данные отправляются из CRM и хранятся в системе со ссылкой на рекламную кампанию.
+									</div>
+									<div class="aggregator-text__title subtitle">Доступ партнеров к данным клиентов</div>
+									<div class="aggregator-text__desription desription">У каждого партнера есть доступ к аккаунту
+										с информацией по клиентам, которые зарегистрировались через кампании партнеров. Система
+										бэк-офиса позволяет настраивать список данных, доступных партнерам.</div>
+									<div class="aggregator-text__title subtitle">Несколько уровней партнерства</div>
+									<div class="aggregator-text__desription desription">AMS поддерживает два уровня партнерства.
+										Вместе они привлекают еще больше заявок и определяют весь поток клиентов. Партнеры могут
+										приводить суб-партнеров и получать комиссию — определенный процент от ежемесячных продаж
+										каждого суб-партнера.</div>
+									<div class="aggregator-text__title subtitle">Система оплаты</div>
+									<div class="aggregator-text__desription desription">Каждый месяц система генерирует отчет по
+										выплатам партнерам, составленный с учетом начисленного заработка. Менеджер по партнерам
+										проверяет точность расчета и переводит выплаты на кошелек партнера.</div>
+								</div>
+								<div class="aggregator__text aggregator-text swiper-slide">
+									<div class="aggregator-text__title subtitle">Маркетинговые материалы</div>
+									<div class="aggregator-text__desription desription">XCritical AMS позволяет партнерам
+										размещать разные типы маркетинговых материалов и привлекать новых клиентов. В рекламных
+										кампаниях используются баннеры, редирект-ссылки и посадочные страницы, чтобы пользователь
+										зарегистрировался под вашим брендом. Более того, вы можете использовать API-ссылки и
+										регистрировать заявки от дочерних компаний.</div>
+									<div class="aggregator-text__title subtitle">Партнерская статистика и отчеты</div>
+									<div class="aggregator-text__desription desription">XCritical AMS отправляет партнерам отчеты
+										— уведомления от системы отслеживания, которые описывают действия зарегистрированных
+										клиентов. Партнеры могут просматривать статистику регистрации по кампаниям и объявлениям с
+										учетом прибылей и убытков. Для вашего удобства статистику можно фильтровать по дате,
+										названию кампании и месту размещения.</div>
+									<div class="aggregator-text__title subtitle">Партнерские сделки</div>
+									<div class="aggregator-text__desription desription">XCritical AMS позволяет строить
+										собственную стратегию вознаграждения партнеров. Система предлагает разные варианты
+										сотрудничества и поощрения за действия привлеченного клиента: регистрацию, активацию
+										аккаунта, повторный депозит и торговую активность. Настройки сделок с партнерами доступны
+										пользователям бэк-офиса в зависимости от их ролей и прав.</div>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+							<div class="swiper-button-prev"><img src="img/icons/prev.svg" class="" alt="prev"></div>
+							<div class="swiper-button-next"><img src="img/icons/next.svg" class="" alt="next"></div>
+						</div>
+						<div class="exchange__decor"><img src="img/aggregator/aggregator-decor.png" class="" alt=""></div>
+					</div>
+				</div>
+			</div>
+			<div class="btn-up btn-up_hide"></div>
+
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__logo"><a href="index.html"><img src="img/logo.svg" class="" alt=""></a></div>
+				<nav class="menu__footer menu-footer">
+					<ul class="menu-footer__list">
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Аналитика </a></li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Лицензионное соглашение API</a>
+						</li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Условия соглашения</a></li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Политика конфиденциальности</a>
+						</li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Контакты</a></li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Карта сайта</a></li>
+					</ul>
+				</nav>
+				<div class="footer__copyr">© 2023 XCritical</div>
+				<div class="footer__mail header-info__mail"><a href="mailto:sales@xcritical.com">sales@xcritical.com</a>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
